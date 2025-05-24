@@ -1,0 +1,19 @@
+//nambah data ke database lewat API
+get http://localhost:5000/notesdata
+###
+post http://localhost:5000/tambah-notes
+Content-Type: application/json
+
+{
+    "judul": "Tips Makan Enak",
+    "isi": "Pinter masak dan pinter cari duit biar bisa beli makanan enak."
+}
+
+###
+PUT http://localhost:5000/edit-notes/1
+Content-Type: application/json
+
+{
+    "judul": "Ini Tuh Tips Produktivitas",
+    "isi": "Gunakan teknik Pomodoro untuk meningkatkan fokus dan menyelesaikan tugas lebih cepat."
+}
