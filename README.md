@@ -1,0 +1,1 @@
+Aplikasi web sederhana untuk mencatat (Notes) dengan fitur CRUD menggunakan Node.js, MySQL, dan HTML/CSS/JavaScript. Backend menggunakan Express.js, database dikelola dengan XAMPP, dan komunikasi frontend-backend dilakukan melalui REST API.
